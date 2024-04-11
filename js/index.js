@@ -50,14 +50,17 @@ function StartMe() {
         <li><a href="#"><img id="icons" src="icons/logout.png" alt="Logout Icon"> Log Out</a></li>
 		<li><a href="#"><img id="icons" src="icons/help.png" alt="Logout Icon">Help</a></li>
         <li><a href="#"><img id="icons" src="icons/settings.png" alt="Logout Icon">System Administration</a></li>
-        <li><a href="#"><img id="icons" src="icons/calender.png" alt="Logout Icon">Calendar Events </a></li>
-        <li><a href="#"><img id="icons" src="icons/access.png" alt="Logout Icon">Recent Company Messages</a></li>
-        <li><a href="#"><img id="icons" src="icons/mail.png" alt="Logout Icon">Mailbox</a></li>
+		<li><a href="#"><img id="icons" src="icons/mail.png" alt="Logout Icon">Mailbox</a></li>
         <li><a href="#"><img id="icons" src="icons/files.png" alt="Logout Icon">Dynamic Reports</a></li>
-        <li><a href="#"><img id="icons" src="icons/calender.png" alt="Logout Icon">Calendar</a></li>
-        <hr>
+        <li><a href="#"><img id="icons" src="icons/access.png" alt="Logout Icon">Display Access</a></li>
+
+        <li><a href="#"><img id="icons" src="icons/calender.png" alt="Logout Icon">Calendar </a></li>
+		<hr>
         <li><a href="#"><img id="icons" src="icons/network.png" alt="Logout Icon">View Network</a></li>
         <hr>
+
+
+       
         <li><a href="#"><img id="icons" src="icons/dashboard.png" alt="Logout Icon">Dashboard</a></li>
         <li><a href="#"><img id="icons" src="icons/documents.png" alt="Logout Icon">Our Documents</a></li>
         <li><a href="#"><img id="icons" src="icons/third.png" alt="Logout Icon">3rd Party Management</a></li>
