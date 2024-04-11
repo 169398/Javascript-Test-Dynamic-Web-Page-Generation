@@ -1,0 +1,28 @@
+.hdr {
+	font-weight: bold;
+	padding: 10px;
+}
+
+.specNote {
+	font-weight: normal;
+	font-size:14px;
+	padding-left:10px;
+}
+
+.pad5 {
+	padding: 5px
+}
+.pad10 {
+	padding: 10px
+}
+
+.instructionsBox {
+	padding: 10px;
+	background-color: navy;
+	color:white;
+}
+
+.icon {
+	width:12px;
+	height:12px;
+}
