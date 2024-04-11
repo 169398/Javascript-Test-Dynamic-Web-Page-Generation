@@ -21,7 +21,7 @@ body {
     width: 150px;
     height: 40px;
     position: fixed;
-    top: 10px; /* adjust as needed */
+    top: 10px;
     right: 80%;
 
   }
@@ -50,23 +50,21 @@ body {
     background-color: white;
     padding: 0.5rem 1rem;
     position: fixed;
-    top: 105px; /* Adjust based on header height */
+    top: 105px;
     left: 0;
-    width: 200px; /* Adjust navigation width */
-    height: calc(100vh - 55px); /* Stretch to viewport height */
-    overflow-y: auto; /* Enable scrolling for long menus */
-    /* Create outline using pseudo-elements and borders */
-    border: 2px solid #ccc; /* Adjust border thickness as desired */
+    width: 200px; 
+    height: calc(100vh - 55px); 
+    overflow-y: auto;
+    border: 2px solid #ccc;
     border-radius: 5px; 
     overflow-x: auto;
   }
   
-  /* Style the menu items using a pseudo-element */
   .navigation::before {
-    content: attr(content); /* Inherit content from the navigation element */
-    display: block; /* Display the pseudo-element as a block */
-    padding: 0.5rem 1rem; /* Padding for menu items */
-    background-color: #ddd; /* Background color for menu items */
+    content: attr(content);
+    display: block; 
+    padding: 0.5rem 1rem;
+    background-color: #ddd; 
   }
   nav li {
     padding: 0.5rem 0; 
@@ -93,7 +91,7 @@ nav ul li a {
   
   .main {
     padding: 1rem 2rem;
-    margin-top: 60px; /* Adjust based on header and navigation heights */
+    margin-top: 60px;
     display: flex;
   }
   
@@ -105,9 +103,8 @@ nav ul li a {
     margin: 0.5rem;
   }
   
-  /* Style the main content area (inbox and calendar) */
   .main {
-    margin-left: 200px; /* Adjust based on navigation width */
+    margin-left: 200px; 
   }
   #hr{
     border-color: brown;
@@ -120,27 +117,27 @@ nav ul li a {
   
   #main-content {
     padding: 1em;
-    width: 80%; /* adjust as needed */
+    width: 80%; 
   }
 
   #card {
-    width: 100%; /* adjust as needed */
-    margin: 20px auto; /* adjust as needed */
-    padding: 20px; /* adjust as needed */
+    width: 100%; 
+    margin: 20px auto; 
+    padding: 20px; 
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional: adds a shadow for a "card" effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   #card select {
-    width: 45%; /* adjust as needed */
-    padding: 5px; /* adjust as needed */
+    width: 45%; 
+    padding: 5px; 
   }
   #card p{
     width: 50%;
   }
   #notificationIcon {
     position: fixed;
-    top: 10px; /* adjust as needed */
-    right: 10px; /* adjust as needed */
+    top: 10px; 
+    right: 10px; 
     width: 30px;
     height: 30px;
   }
